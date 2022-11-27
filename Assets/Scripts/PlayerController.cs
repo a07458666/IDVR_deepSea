@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
     Vector3 moveValue;
 
-    
+    public bool isKeyBorad = false;
 
 
     // Start is called before the first frame update
@@ -40,19 +40,24 @@ public class PlayerController : MonoBehaviour
     {
         gm = GameObject.FindObjectOfType<GameManager>();
         moveValue = new Vector3(0.0f, 0.0f, 0.0f);
-
     }
 
     void Update()
     {
-        // transform.eulerAngles = new Vector3(pitch, yaw, 0f);
-
+        if (isKeyBorad)
+        {
+            transform.eulerAngles = new Vector3(pitch, yaw, 0f);
+        }
     }
 
     void FixedUpdate()
     {
-        // transform.position += moveValue;
-        // transform.Translate(moveValue);
+        if (isKeyBorad)
+        {
+            transform.position += moveValue;
+            transform.Translate(moveValue);
+        }
+        
     }
 
     public void OnFire()

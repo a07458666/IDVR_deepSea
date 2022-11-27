@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &140162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 418550}
+  - component: {fileID: 10863800}
+  - component: {fileID: 11419496}
+  m_Layer: 0
+  m_Name: CausticLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418550
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140162}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -33.56, y: 3.94, z: -23.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &10863800
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140162}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_Range: 10
+  m_SpotAngle: 99.39901
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 2800000, guid: 079debcddc1fd6a44a897b4258f991af, type: 3}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &11419496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0fe4e82d4e48c47910020abe5602f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDelta: {x: 0.1, y: 0, z: -0.25}
+  textures:
+  - {fileID: 2800000, guid: 079debcddc1fd6a44a897b4258f991af, type: 3}
+  - {fileID: 2800000, guid: bfa56dbbc8220b24bad333f68a63fe86, type: 3}
+  - {fileID: 2800000, guid: 130b5af734b560549a55b4a92b5e8b2a, type: 3}
+  - {fileID: 2800000, guid: a8c0268aff1bddc47beb52a031f0db87, type: 3}
+  - {fileID: 2800000, guid: 86117718bdd069f46a2a42c2dba35e66, type: 3}
+  - {fileID: 2800000, guid: 93bbfa09f30341845b41f25c39f7b507, type: 3}
+  - {fileID: 2800000, guid: 366886fe65f24284493487fd94ed9129, type: 3}
+  - {fileID: 2800000, guid: 4df5573c48f6c724b9388fa7289a0556, type: 3}
+  - {fileID: 2800000, guid: 126941930bbdb31479eac6d73e20e09f, type: 3}
+  - {fileID: 2800000, guid: 6d03e59bfeb632d428101a9ff36a14aa, type: 3}
+  - {fileID: 2800000, guid: ae3d8e80f47619147b1e25cb809ae17a, type: 3}
+  - {fileID: 2800000, guid: e151475a978d4ed48910d385e8654414, type: 3}
+  - {fileID: 2800000, guid: e306c3edfb5b7d9409f57a019f24772d, type: 3}
+  - {fileID: 2800000, guid: bec09ea79bdab8343b962b1419d77aca, type: 3}
+  - {fileID: 2800000, guid: 588c10a4005e1a84582e1362463d1eef, type: 3}
+  - {fileID: 2800000, guid: e7bc9109f513d224e9d254da98f60fc4, type: 3}
+  - {fileID: 2800000, guid: 385fca209351be245b86fda07d89cdf7, type: 3}
+  - {fileID: 2800000, guid: 5c9a47da5cfa18c42ad0b2beefab4044, type: 3}
+  - {fileID: 2800000, guid: e79133d1a0ac164458fec0a150484ec2, type: 3}
+  - {fileID: 2800000, guid: 1bada25c417b3ad4a8a5a4958422279c, type: 3}
+  - {fileID: 2800000, guid: f1c42ef93f239164dbc39d499e86edb6, type: 3}
+  - {fileID: 2800000, guid: 6fd3c94fc88ccd249a8611982d989079, type: 3}
+  - {fileID: 2800000, guid: 4e619c324700d3643bc9d0225d7c489b, type: 3}
+  - {fileID: 2800000, guid: 3ee9f300c4cc7c14c8e3076165ae62cb, type: 3}
+  - {fileID: 2800000, guid: 4084a9f8f1ceafa4fbf0672027db4dcc, type: 3}
+  - {fileID: 2800000, guid: 512d3794cad83d8479963e264a3b5b81, type: 3}
+  - {fileID: 2800000, guid: 4e2eb9cd78d30214bb5f7d8164bc0a3d, type: 3}
+  - {fileID: 2800000, guid: 75ae33457611e1c44a31255c8ecfd01b, type: 3}
+  - {fileID: 2800000, guid: 82b3d162d31b76f45857ce66a2a58a07, type: 3}
+  - {fileID: 2800000, guid: 10b938ce8ea35be439207905e784b359, type: 3}
+  - {fileID: 2800000, guid: 4685eb714192d5844971831828295d0d, type: 3}
+  fps: 24
+  animMode: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 140162}
+  m_IsPrefabParent: 1

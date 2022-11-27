@@ -1,0 +1,33 @@
+0000-0001 Bind Pose
+0003-0091 loop Idle
+0094-0158 loop Swiming
+0161-0225 loop Swimming Up
+0228-0293 loop Swimming Down
+0295-0314 Start Quilting
+0315-0353 loop Quilting
+0354-0373 End Quilting
+0375-0437 loop Attack Bite             
+0439-0468 loop Attack Left Side       
+0471-0500 loop Attack Right Side
+0503-0567 loop Eating
+0570-0688 loop Fight Idle
+0691-0811 loop Strafe Left
+0814-0934 loop Strafe Right
+0937-0977 loop Turn Left
+0980-1020 loop Turn Right
+1023-1043 loop Hit Letf
+1044-1063 loop Hit Right
+1064-1084 loop Hit Down
+1085-1104 loop Hit Up
+1106-1288 Death
+1290-1314 loop Start Swiming
+1317-1355 loop Quilting 01
+1358-1396 loop Rise
+1399-1468 Hit To Death 01
+1469-1571 loop Death 01
+1574-1616 loop Dodge Right
+1619-1660 loop Dodge Left
+1663-1729 loop Swimming Turn Left
+1732-1798 loop Swimming Turn Right
+1801-1867 loop Swimming Turn Widely Left
+1870-1936 loop Swimming Turn Widely Left
