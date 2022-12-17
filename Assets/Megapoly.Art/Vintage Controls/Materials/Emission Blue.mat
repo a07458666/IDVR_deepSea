@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Emission Blue
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: ce7fc7ab994fb3743b6793b111af50b5, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -22,6 +22,14 @@ Material:
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CyberTex:
+        m_Texture: {fileID: 2800000, guid: 41edf25d451a744e6ad1172a677603bd, type: 3}
+        m_Scale: {x: 5.7, y: 4.42}
+        m_Offset: {x: 0, y: 0}
+    - _CyberTexBack:
+        m_Texture: {fileID: 2800000, guid: 73f804ec9163d4cfab934b5fb48d3438, type: 3}
+        m_Scale: {x: 5.47, y: 3.57}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
@@ -40,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 9.94, y: 5.88}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d147a50e4e158184abac112b5ffe6475, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7fd3cda14282bb7429b8eeb6c121e5bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 9.94, y: 5.88}
     - _MetallicGlossMap:
@@ -66,13 +74,19 @@ Material:
     - _Metallic: 0.667
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OutlineThred: 1
     - _Parallax: 0.02
+    - _Range: 1
+    - _Size: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 5
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0.13286836, g: 0.13286836, b: 0.13286836, a: 1}
     - _EmissionColor: {r: 0, g: 0.42460012, b: 1, a: 1}
+    - _OutsideColor: {r: 0.5754717, g: 0.29587933, b: 0.29587933, a: 1}
   m_BuildTextureStacks: []

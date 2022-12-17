@@ -5,6 +5,25 @@ TagManager:
   serializedVersion: 2
   tags:
   - Key
+  - PuzzleObject
+  - PuzzleIcon
+  - IgnoreDoubleTap
+  - inventoryEntry
+  - PlayerRayIsBlocked
+  - InteractObject
+  - PuzzleRefPosition
+  - Item
+  - spawnPosition
+  - charaVoiceOverAudioSource
+  - a_Listener
+  - TextInGame
+  - OnlyFocusIcon
+  - Head
+  - mobileCanvas
+  - Action
+  - SF_Door
+  - ViewerTurntable
+  - card
   layers:
   - Default
   - TransparentFX
