@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using DG.Tweening;
 
 public class MapManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class MapManager : MonoBehaviour
     public bool isTrigger_B = false;
     public bool isTrigger_C = false;
     public object taget; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,10 @@ public class MapManager : MonoBehaviour
         if(isTrigger_A && isTrigger_B && isTrigger_C)
         {
             Debug.Log("Unlock!!!");
+            transform.DOShakePosition(5.0f, new Vector3(0.5f, 0.5f, 0));
+            isTrigger_A = false;
+            isTrigger_B = false;
+            isTrigger_C = false;
         }
     }
 
