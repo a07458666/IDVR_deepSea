@@ -62,4 +62,37 @@ public class MapManager : MonoBehaviour
             isTrigger_C = true;
         }
     }
+
+    public void ExitMap_A(HoverExitEventArgs args)
+    {
+        IXRHoverInteractable hoverComponent = args.interactableObject;
+        GameObject obj = hoverComponent.transform.gameObject;
+        Debug.Log("Grab A: " + obj.name);
+        if (obj.name == "Tarot_Card_A")
+        {
+            isTrigger_A = false;
+        }
+    }
+
+    public void ExitMap_B(HoverExitEventArgs args)
+    {
+        IXRHoverInteractable hoverComponent = args.interactableObject;
+        GameObject obj = hoverComponent.transform.gameObject;
+        Debug.Log("Grab B: " + obj.name);
+        if (obj.name == "Tarot_Card_B")
+        {
+            isTrigger_B = false;
+        }
+    }
+
+    public void ExitMap_C(HoverExitEventArgs args)
+    {
+        IXRHoverInteractable hoverComponent = args.interactableObject;
+        GameObject obj = hoverComponent.transform.gameObject;
+        Debug.Log("Grab C: " + obj.name);
+        if (obj.name == "Tarot_Card_C")
+        {
+            isTrigger_C = false;
+        }
+    }
 }
