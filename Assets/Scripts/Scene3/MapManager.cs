@@ -9,8 +9,8 @@ public class MapManager : MonoBehaviour
     public bool isTrigger_A = false;
     public bool isTrigger_B = false;
     public bool isTrigger_C = false;
-    public object taget; 
-
+    public object taget;
+    public GameObject plesiosaurus;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +27,7 @@ public class MapManager : MonoBehaviour
             isTrigger_A = false;
             isTrigger_B = false;
             isTrigger_C = false;
+            plesiosaurus.SetActive(true);
         }
     }
 
@@ -55,6 +56,39 @@ public class MapManager : MonoBehaviour
     public void CheckMap_C(HoverEnterEventArgs args)
     {
         IXRHoverInteractable hoverComponent = args.interactableObject;
+        GameObject obj = hoverComponent.transform.gameObject;
+        Debug.Log("Grab C: " + obj.name);
+        if (obj.name == "Tarot_Card_C")
+        {
+            isTrigger_C = true;
+        }
+    }
+
+    public void SelectMap_A(SelectEnterEventArgs args)
+    {
+        IXRSelectInteractable hoverComponent = args.interactableObject;
+        GameObject obj = hoverComponent.transform.gameObject;
+        Debug.Log("Grab A: " + obj.name);
+        if (obj.name == "Tarot_Card_A")
+        {
+            isTrigger_A = true;
+        }
+    }
+
+    public void SelctMap_B(SelectEnterEventArgs args)
+    {
+        IXRSelectInteractable hoverComponent = args.interactableObject;
+        GameObject obj = hoverComponent.transform.gameObject;
+        Debug.Log("Grab B: " + obj.name);
+        if (obj.name == "Tarot_Card_B")
+        {
+            isTrigger_B = true;
+        }
+    }
+
+    public void SelectMap_C(SelectEnterEventArgs args)
+    {
+        IXRSelectInteractable hoverComponent = args.interactableObject;
         GameObject obj = hoverComponent.transform.gameObject;
         Debug.Log("Grab C: " + obj.name);
         if (obj.name == "Tarot_Card_C")
