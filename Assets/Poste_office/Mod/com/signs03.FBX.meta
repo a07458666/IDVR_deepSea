@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 842087272e8937e47921395c85418f30
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: mur banque01
+    100002: mur_banque
+    100004: panneau_banque00
+    100006: panneau_banque01
+    100008: panneau_banque02
+    100010: //RootNode
+    100012: mur_banque01
+    100014: bank_board00
+    100016: bank_board01
+    100018: bank_board02
+    100020: wall_bank
+    100022: wall_bank01
+    400000: mur banque01
+    400002: mur_banque
+    400004: panneau_banque00
+    400006: panneau_banque01
+    400008: panneau_banque02
+    400010: //RootNode
+    400012: mur_banque01
+    400014: bank_board00
+    400016: bank_board01
+    400018: bank_board02
+    400020: wall_bank
+    400022: wall_bank01
+    2300000: mur banque01
+    2300002: mur_banque
+    2300004: panneau_banque00
+    2300006: panneau_banque01
+    2300008: panneau_banque02
+    2300010: mur_banque01
+    2300012: bank_board00
+    2300014: bank_board01
+    2300016: bank_board02
+    2300018: wall_bank
+    2300020: wall_bank01
+    3300000: mur banque01
+    3300002: mur_banque
+    3300004: panneau_banque00
+    3300006: panneau_banque01
+    3300008: panneau_banque02
+    3300010: mur_banque01
+    3300012: bank_board00
+    3300014: bank_board01
+    3300016: bank_board02
+    3300018: wall_bank
+    3300020: wall_bank01
+    4300000: panneau_banque00
+    4300002: mur banque01
+    4300004: mur_banque
+    4300006: panneau_banque02
+    4300008: panneau_banque01
+    4300010: mur_banque01
+    4300012: wall_bank
+    4300014: bank_board00
+    4300016: wall_bank01
+    4300018: bank_board02
+    4300020: bank_board01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 1
+  userData: 

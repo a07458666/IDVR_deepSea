@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: db37af98ed455bd4db6534cae1342026
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Lettr006
+    100002: Lettr007
+    100004: Lettr008
+    100006: //RootNode
+    100008: lettre_ecr00
+    100010: lettre_ecr01
+    100012: lettre_ecr02
+    100014: lettre_ecr03
+    100016: lettre_ecr04
+    100018: lettre_ecr05
+    100020: letter_ecr00
+    100022: letter_ecr01
+    100024: letter_ecr02
+    100026: letter_ecr03
+    100028: letter_ecr04
+    100030: letter_ecr05
+    400000: Lettr006
+    400002: Lettr007
+    400004: Lettr008
+    400006: //RootNode
+    400008: lettre_ecr00
+    400010: lettre_ecr01
+    400012: lettre_ecr02
+    400014: lettre_ecr03
+    400016: lettre_ecr04
+    400018: lettre_ecr05
+    400020: letter_ecr00
+    400022: letter_ecr01
+    400024: letter_ecr02
+    400026: letter_ecr03
+    400028: letter_ecr04
+    400030: letter_ecr05
+    2300000: Lettr006
+    2300002: Lettr007
+    2300004: Lettr008
+    2300006: lettre_ecr00
+    2300008: lettre_ecr01
+    2300010: lettre_ecr02
+    2300012: lettre_ecr03
+    2300014: lettre_ecr04
+    2300016: lettre_ecr05
+    2300018: letter_ecr00
+    2300020: letter_ecr01
+    2300022: letter_ecr02
+    2300024: letter_ecr03
+    2300026: letter_ecr04
+    2300028: letter_ecr05
+    3300000: Lettr006
+    3300002: Lettr007
+    3300004: Lettr008
+    3300006: lettre_ecr00
+    3300008: lettre_ecr01
+    3300010: lettre_ecr02
+    3300012: lettre_ecr03
+    3300014: lettre_ecr04
+    3300016: lettre_ecr05
+    3300018: letter_ecr00
+    3300020: letter_ecr01
+    3300022: letter_ecr02
+    3300024: letter_ecr03
+    3300026: letter_ecr04
+    3300028: letter_ecr05
+    4300000: Lettr006
+    4300002: Lettr007
+    4300004: Lettr008
+    4300006: lettre_ecr01
+    4300008: lettre_ecr02
+    4300010: lettre_ecr00
+    4300012: lettre_ecr04
+    4300014: lettre_ecr03
+    4300016: lettre_ecr05
+    4300018: letter_ecr01
+    4300020: letter_ecr02
+    4300022: letter_ecr00
+    4300024: letter_ecr04
+    4300026: letter_ecr03
+    4300028: letter_ecr05
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 1
+  userData: 
