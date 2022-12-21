@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 1e88e1a10965cba4d888f5dd6b90beaf
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: galaxy_note
+    100002: galaxy_tab
+    100004: //RootNode
+    100006: poste_douchette_01
+    100008: zebra_em220
+    100010: zebra_gx
+    100012: printerA
+    100014: printerB
+    100016: scanner
+    100018: smartphone
+    100020: tablet
+    400000: galaxy_note
+    400002: galaxy_tab
+    400004: //RootNode
+    400006: poste_douchette_01
+    400008: zebra_em220
+    400010: zebra_gx
+    400012: printerA
+    400014: printerB
+    400016: scanner
+    400018: smartphone
+    400020: tablet
+    2300000: galaxy_note
+    2300002: galaxy_tab
+    2300004: poste_douchette_01
+    2300006: zebra_em220
+    2300008: zebra_gx
+    2300010: printerA
+    2300012: printerB
+    2300014: scanner
+    2300016: smartphone
+    2300018: tablet
+    3300000: galaxy_note
+    3300002: galaxy_tab
+    3300004: poste_douchette_01
+    3300006: zebra_em220
+    3300008: zebra_gx
+    3300010: printerA
+    3300012: printerB
+    3300014: scanner
+    3300016: smartphone
+    3300018: tablet
+    4300000: galaxy_note
+    4300002: galaxy_tab
+    4300004: zebra_em220
+    4300006: zebra_gx
+    4300008: poste_douchette_01
+    4300010: smartphone
+    4300012: tablet
+    4300014: printerB
+    4300016: printerA
+    4300018: scanner
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: bbfd7564aba71f047af18dcb19d3f535
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: boite_prepaye00
+    100002: boite_prepaye01
+    100004: boite_prepaye02
+    100006: boite_prepaye03
+    100008: boite_prepaye04
+    100010: boite_prepaye05
+    100012: //RootNode
+    100014: EnoData
+    100016: box_prepaid00
+    100018: box_prepaid01
+    100020: box_prepaid02
+    100022: box_prepaid03
+    100024: box_prepaid04
+    100026: box_prepaid05
+    400000: boite_prepaye00
+    400002: boite_prepaye01
+    400004: boite_prepaye02
+    400006: boite_prepaye03
+    400008: boite_prepaye04
+    400010: boite_prepaye05
+    400012: //RootNode
+    400014: EnoData
+    400016: box_prepaid00
+    400018: box_prepaid01
+    400020: box_prepaid02
+    400022: box_prepaid03
+    400024: box_prepaid04
+    400026: box_prepaid05
+    2300000: boite_prepaye00
+    2300002: boite_prepaye01
+    2300004: boite_prepaye02
+    2300006: boite_prepaye03
+    2300008: boite_prepaye04
+    2300010: boite_prepaye05
+    2300012: box_prepaid00
+    2300014: box_prepaid01
+    2300016: box_prepaid02
+    2300018: box_prepaid03
+    2300020: box_prepaid04
+    2300022: box_prepaid05
+    3300000: boite_prepaye00
+    3300002: boite_prepaye01
+    3300004: boite_prepaye02
+    3300006: boite_prepaye03
+    3300008: boite_prepaye04
+    3300010: boite_prepaye05
+    3300012: box_prepaid00
+    3300014: box_prepaid01
+    3300016: box_prepaid02
+    3300018: box_prepaid03
+    3300020: box_prepaid04
+    3300022: box_prepaid05
+    4300000: boite_prepaye05
+    4300002: boite_prepaye04
+    4300004: boite_prepaye01
+    4300006: boite_prepaye02
+    4300008: boite_prepaye00
+    4300010: boite_prepaye03
+    4300012: box_prepaid05
+    4300014: box_prepaid04
+    4300016: box_prepaid01
+    4300018: box_prepaid02
+    4300020: box_prepaid00
+    4300022: box_prepaid03
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 1
+  userData: 
