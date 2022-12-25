@@ -11,6 +11,7 @@ public class MapManager : MonoBehaviour
     public bool isTrigger_C = false;
     public object taget;
     public GameObject plesiosaurus;
+    public GameObject fade_scene_change;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class MapManager : MonoBehaviour
             isTrigger_B = false;
             isTrigger_C = false;
             plesiosaurus.SetActive(true);
+            change_sence();
         }
     }
 
@@ -128,5 +130,13 @@ public class MapManager : MonoBehaviour
         {
             isTrigger_C = false;
         }
+    }
+    void change_sence()
+    {
+        //Get script attached to it
+        fade_in_out _fade_in_out = fade_scene_change.GetComponent<fade_in_out>();
+
+        //Call the function
+        _fade_in_out.Scene_change_by_time();
     }
 }
