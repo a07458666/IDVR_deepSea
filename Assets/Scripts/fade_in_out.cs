@@ -45,7 +45,7 @@ public class fade_in_out : MonoBehaviour
             animation_delta_time = 0.0f; 
             if (start_fade_out == 1)
             {
-                SceneManager.LoadScene(next_scenes_name);
+                SceneManager.LoadScene(next_scenes_name, LoadSceneMode.Single);
             }
             start_fade_in = 0;
             start_fade_out = 0; 
@@ -74,6 +74,6 @@ public class fade_in_out : MonoBehaviour
 
     public void Scene_change()
     {
-        SceneManager.LoadScene(next_scenes_name);
+        SceneManager.LoadScene(next_scenes_name, LoadSceneMode.Single);
     }
 }

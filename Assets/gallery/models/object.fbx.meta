@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 05a7868d42cb0704ca4bb2c7b36eba8c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chair_1
+    100002: Cube
+    100004: Cube_2
+    100006: Cube_3
+    100008: Cube_4
+    100010: Cube_5
+    100012: Cylinder
+    100014: Cylinder_2
+    100016: knife_1
+    100018: knife_2
+    100020: knife_3
+    100022: knife_4
+    100024: man_1
+    100026: //RootNode
+    100028: Sphere
+    400000: chair_1
+    400002: Cube
+    400004: Cube_2
+    400006: Cube_3
+    400008: Cube_4
+    400010: Cube_5
+    400012: Cylinder
+    400014: Cylinder_2
+    400016: knife_1
+    400018: knife_2
+    400020: knife_3
+    400022: knife_4
+    400024: man_1
+    400026: //RootNode
+    400028: Sphere
+    2300000: chair_1
+    2300002: Cube
+    2300004: Cube_2
+    2300006: Cube_3
+    2300008: Cube_4
+    2300010: Cube_5
+    2300012: Cylinder
+    2300014: Cylinder_2
+    2300016: knife_1
+    2300018: knife_2
+    2300020: knife_3
+    2300022: knife_4
+    2300024: man_1
+    2300026: Sphere
+    3300000: chair_1
+    3300002: Cube
+    3300004: Cube_2
+    3300006: Cube_3
+    3300008: Cube_4
+    3300010: Cube_5
+    3300012: Cylinder
+    3300014: Cylinder_2
+    3300016: knife_1
+    3300018: knife_2
+    3300020: knife_3
+    3300022: knife_4
+    3300024: man_1
+    3300026: Sphere
+    4300000: knife_4
+    4300002: knife_3
+    4300004: knife_2
+    4300006: knife_1
+    4300008: Cylinder_2
+    4300010: man_1
+    4300012: Cube_5
+    4300014: Cube_4
+    4300016: Cube_3
+    4300018: Sphere
+    4300020: chair_1
+    4300022: Cylinder
+    4300024: Cube_2
+    4300026: Cube
+    6400000: chair_1
+    6400002: Cube
+    6400004: Cube_2
+    6400006: Cube_3
+    6400008: Cube_4
+    6400010: Cube_5
+    6400012: Cylinder
+    6400014: Cylinder_2
+    6400016: knife_1
+    6400018: knife_2
+    6400020: knife_3
+    6400022: knife_4
+    6400024: man_1
+    6400026: Sphere
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: cb009b688d525cc4bb490d98be011559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: 783b77c34f57cab4695f7c11d494bb82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome
+    second: {fileID: 2100000, guid: 8f6c5d33d437cd744a6870d6c0a7baf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green
+    second: {fileID: 2100000, guid: 078e7324b83c4cb4b886d5fa13ba9bc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 4dcadbe8953df2244a9b52ad0585a496, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,7 @@ public class DoorAnimate : MonoBehaviour
     PrintCheck_left pl;
     PrintCheck_right pr;
     public GameObject fade_scene_change;
+    private bool isTrigger = false;
     void Start()
     {
         pl = GameObject.FindObjectOfType<PrintCheck_left>();
@@ -24,13 +25,17 @@ public class DoorAnimate : MonoBehaviour
             if(transform.position.y <= 37.5f)
             {
                 transform.position = new Vector3(transform.position.x, transform.position.y+0.007f, transform.position.z);
-                change_sence();
             }
+            change_sence();
         }
+        
+        
     }
 
     void change_sence()
     {
+        if (isTrigger) return;
+        isTrigger = true;
         //Get script attached to it
         fade_in_out _fade_in_out = fade_scene_change.GetComponent<fade_in_out>();
 
