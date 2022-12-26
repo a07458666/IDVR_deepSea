@@ -1942,7 +1942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4217790858584665536, guid: 177cb276263f1e74a818f74bd8ae3046, type: 3}
       propertyPath: next_scenes_name
-      value: Scene0-3
+      value: Scene1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 177cb276263f1e74a818f74bd8ae3046, type: 3}
@@ -9723,7 +9723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96847f45707797341b6cf44f03335a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene_name: Scene0-3
+  scene_name: Scene1
   is_invoke_change: 1
   delayTime: 18
 --- !u!4 &1773104291
