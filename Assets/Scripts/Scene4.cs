@@ -46,7 +46,7 @@ public class Scene4 : MonoBehaviour
         ReplyBubble_2.gameObject.SetActive(false);
         ReplyBubble_3.gameObject.SetActive(false);
 
-        Invoke("phoneRang", 30f);
+        Invoke("phoneRang", 15f);
     }
 
     void phoneRang()

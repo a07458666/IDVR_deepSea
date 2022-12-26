@@ -24,17 +24,21 @@ public class BottleSetManager : MonoBehaviour
     {
         if (isTrigger_A && isTrigger_B && isTrigger_C && isTrigger_D && isTrigger_E)
         {
-            Debug.Log("Unlock!!!");
-            transform.DOShakePosition(5.0f, new Vector3(0.5f, 0.5f, 0));
-            isTrigger_A = false;
-            isTrigger_B = false;
-            isTrigger_C = false;
-            isTrigger_D = false;
-            isTrigger_E = false;
-            plesiosaurus.SetActive(true);
+            unlock();
         }
     }
 
+    public void unlock()
+    {
+        Debug.Log("Unlock!!!");
+        transform.DOShakePosition(5.0f, new Vector3(0.5f, 0.5f, 0));
+        isTrigger_A = false;
+        isTrigger_B = false;
+        isTrigger_C = false;
+        isTrigger_D = false;
+        isTrigger_E = false;
+        plesiosaurus.SetActive(true);
+    }
     public void CheckMap_A(HoverEnterEventArgs args)
     {
         IXRHoverInteractable hoverComponent = args.interactableObject;

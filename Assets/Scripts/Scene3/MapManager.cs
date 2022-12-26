@@ -23,14 +23,19 @@ public class MapManager : MonoBehaviour
     {
         if(isTrigger_A && isTrigger_B && isTrigger_C)
         {
-            Debug.Log("Unlock!!!");
-            transform.DOShakePosition(5.0f, new Vector3(0.5f, 0.5f, 0));
-            isTrigger_A = false;
-            isTrigger_B = false;
-            isTrigger_C = false;
-            plesiosaurus.SetActive(true);
-            change_sence();
+            unlock();
         }
+    }
+
+    public void unlock()
+    {
+        Debug.Log("Unlock!!!");
+        transform.DOShakePosition(5.0f, new Vector3(0.5f, 0.5f, 0));
+        isTrigger_A = false;
+        isTrigger_B = false;
+        isTrigger_C = false;
+        plesiosaurus.SetActive(true);
+        change_sence();
     }
 
     public void CheckMap_A(HoverEnterEventArgs args)
